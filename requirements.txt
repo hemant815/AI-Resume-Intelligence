@@ -1,0 +1,11 @@
+streamlit
+sentence-transformers
+scikit-learn
+pandas
+PyMuPDF
+groq
+python-dotenv
+ftfy
+nltk
+joblib
+fitz
