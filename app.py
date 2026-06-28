@@ -1,13 +1,8 @@
 import streamlit as st
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-from sklearn.metrics import accuracy_score
-from sklearn.linear_model import LogisticRegression
-from ftfy import fix_text
 import re
-from sklearn.svm import LinearSVC
 from nltk.tokenize import word_tokenize
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import joblib

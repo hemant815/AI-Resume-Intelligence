@@ -43,7 +43,10 @@ def extract_skills(text):
     content = content.strip()
 
 
-    skills = json.loads(content)
+    try:
+        skills = json.loads(content)
+    except:
+        skills = {"technical_skills":[]}
 
 
     return skills
