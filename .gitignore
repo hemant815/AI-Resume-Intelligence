@@ -1,7 +1,6 @@
 .env
 __pycache__
 .ipynb_checkpoints
-models/*.pkl
 venv
 .vscode
 .DS_Store
